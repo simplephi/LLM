@@ -1,0 +1,92 @@
+@media (max-width: 600px) {
+    /* Mengatur lebar dan tinggi elemen untuk layar kecil (misalnya, perangkat seluler) */
+    #keyword-container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .blurred-text {
+    opacity: 0.5; /* Sesuaikan nilai opacity sesuai kebutuhan */
+    font-size: small;
+  }
+  
+  .tengah {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  #assistant-container {
+    position: fixed;
+    top: 210px;
+    left: 16px;
+    z-index: 999; /* Sesuaikan dengan kebutuhan z-index */
+    overflow-y: auto;
+    width: 350px; /* Lebar elemen */
+    height: 340px; /* Tinggi elemen */
+  }
+  
+  #keyword-container {
+    position: fixed;
+    top: 65px;
+    right: 15px;
+    z-index: 999; /* Sesuaikan dengan kebutuhan z-index */
+    overflow-y: auto; /* Tambahkan scrollbar jika kontennya melebihi tinggi maksimum */
+    width: 250px; /* Lebar elemen */
+    height: 350px; /* Tinggi elemen */
+  }
+  
+  #check-container {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 999; /* Sesuaikan dengan kebutuhan z-index */
+    overflow-y: auto; /* Tambahkan scrollbar jika kontennya melebihi tinggi maksimum */
+    width: 250px; /* Lebar elemen */
+    height: 350px; /* Tinggi elemen */
+  }
+  
+  #network-graph-container {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .q-card,
+  .q-page {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Tampilan Analisis */
+  #analisis-container {
+    width: 350px;
+    height: 230px;
+    position: fixed;
+    bottom: 20px;
+    left: 16px;
+    z-index: 999;
+    overflow-y: auto;
+  }
+  
+  .assistant-response-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .idea-response-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bg-indra {
+    background-color: rgb(4, 10, 84);
+  }
+  
